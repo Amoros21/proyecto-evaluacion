@@ -1,0 +1,132 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: sans-serif;
+}
+nav a:hover{
+    color: white;
+    background:#352a2c;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+header{
+    display: flex;
+    background-color: rgba(144,110,34, 0.8);
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.img{
+    background-image: url('imagenes/1002864.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.padre{
+    display: flex;
+    flex-flow: column;
+}
+    .header{
+        display: flex;
+        border-radius: 0.3cm;
+        flex-flow: column nowrap;
+        background:rgb(144,110,34);
+    }
+    .logo-imagen{
+        height: 100px;
+    }
+            .logo{
+                flex: 1 1 50%;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .nav{
+                display: flex;
+                flex: 1 1 50%;
+                height: 30px;
+                justify-content: center;
+                align-items: center;
+            }
+            .sub{
+                background: #352a2c;
+                height: auto;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                color:white;
+            }
+        .articulos{
+            display: flex;
+            flex: 0 1 auto;
+            flex-flow: column wrap;
+        }
+        .vol{
+            background: rgba(197,167,153, 0.5);
+            display: flex;
+            flex: 0 1 auto;
+            flex-flow: wrap;
+            justify-content: center;
+
+        }
+            .article{
+                height: auto;
+                background: rgba(197,167,153, 0.5);
+                flex: 0 1 auto;
+                flex-flow: column wrap;
+                border-top-color: black;
+            }
+            
+            
+            .navegacion{
+                background: #C1A3A3;
+                flex: 1 1 100%;
+            }
+        .aside{
+            background: #1572A1;
+            flex: 1 1 auto;
+        }
+            .public{
+                background: yellow;
+            }
+    .footer{
+        background: #000;
+        display: flex;
+        justify-content: center;
+    }
+        .pie{
+            background: #863c49;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+        }
+.center{
+    text-align: center;
+    color: white
+}
+siv a{
+    color: white;
+}
+siv a:hover{
+    background: white;
+    border-radius: 15px;
+    color: black;
+    transition: all 0.5s ease;
+    
+}
+
+
